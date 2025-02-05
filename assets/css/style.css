@@ -199,6 +199,14 @@ footer {
     color: var(--text-light);
     text-align: center;
 }
+.footer__bar span a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+.footer__bar span a:hover {
+    color: var(--primary-color);
+    transition: .3s;
+}
 /* RESPONSIVE DESIGN */
 @media (width > 540px) {
     .link__grid {
