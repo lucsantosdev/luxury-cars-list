@@ -60,6 +60,7 @@ ul {
     position: relative;
     isolation: isolate;
     max-width: 600px;
+    max-height: 300px;
     margin-inline: auto;
     border-radius: 1.5rem;
     overflow: hidden;
@@ -159,6 +160,15 @@ ul {
 .link__card p {
     margin-bottom: 2rem;
     color: var(--text-light);
+}
+.link__card img {
+    width: 360px;
+    height: 300px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.link__card img:hover {
+    transform: scale(1.05);
 }
 /* FOOTER STYLES */
 footer {
