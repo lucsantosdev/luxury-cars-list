@@ -227,7 +227,6 @@ footer {
     .link__grid {
       grid-template-columns: repeat(2, 1fr);
     }
-  
     .footer__container {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -235,12 +234,10 @@ footer {
 @media (width > 768px) {
     .list__grid {
       grid-template-columns: repeat(2, 1fr);
-    }
-  
+    }  
     .link__grid {
       grid-template-columns: repeat(3, 1fr);
     }
-  
     .footer__container {
       grid-template-columns: repeat(4, 1fr);
     }
@@ -249,11 +246,9 @@ footer {
     .list__grid {
       gap: 1.5rem;
     }
-  
     .list__brand {
       padding: 4rem;
     }
-  
     .link__grid {
       padding: 1.5rem;
     }
