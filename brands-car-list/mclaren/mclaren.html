@@ -78,6 +78,9 @@
                     <!-- insert the screen video -->
                     <!-- video data mapping -->
                     <!-- match the video name with the class name -->
+                    <!-- here, it was made only one screen dynamic due to the limitation of videos 
+                         but it is possible to make it for all four screen dynamic, if you have more videos 
+                    --> 
                      <video 
                         class="trailer mclaren-1 screen-video active"
                         src="./assets/videos/mclaren-1.mp4" 
@@ -145,23 +148,23 @@
         </div>
         <div class="gallery">
             <div class="carousel">
-                <a href="#" class="carousel-item">
+                <a href="#" class="carousel-item" onclick="changeVideo('mclaren-1')">
                     <img src="./assets/images/mclaren-1.jpg" alt="">
                     <h4>765LT SPIDER</h4>
                 </a>
-                <a href="#" class="carousel-item">
+                <a href="#" class="carousel-item" onclick="changeVideo('mclaren-2')">
                     <img src="./assets/images/mclaren-2.jpg" alt="">
                     <h4 style="color: #92FF00;">ARTURA</h4>
                 </a>
-                <a href="#" class="carousel-item">
+                <a href="#" class="carousel-item" onclick="changeVideo('mclaren-3')">
                     <img src="./assets/images/mclaren-3.jpeg" alt="">
                     <h4 style="color: #FF0015;">750S</h4>
                 </a>
-                <a href="#" class="carousel-item">
+                <a href="#" class="carousel-item" onclick="changeVideo('mclaren-4')">
                     <img src="./assets/images/mclaren-4.jpeg" alt="">
                     <h4 style="color: #FF2E00;">765LT</h4>
                 </a>
-                <a href="#" class="carousel-item">
+                <a href="#" class="carousel-item" onclick="changeVideo('mclaren-5')">
                     <img src="./assets/images/mclaren-5.jpeg" alt="">
                     <h4 style="color: #BBC0DD;">750S SPIDER</h4>
                 </a>
